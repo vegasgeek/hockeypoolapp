@@ -1,0 +1,31 @@
+.stats-grid {
+	width: 100%;
+}
+
+.stats-grid table {
+	margin-bottom: 0;
+}
+.stats-grid th {
+	border-bottom: solid 1px #ccc;
+}
+
+.stats-grid tr,
+.stats-grid th,
+.stats-grid td {
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.stats-grid tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.stats-grid th.c1 {
+	width: 25%;
+}
+
+.stats-grid th.c2 {
+	width: 15%;
+}
+

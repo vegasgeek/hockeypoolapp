@@ -1,0 +1,30 @@
+{
+    "name": "picks-teams",
+    "title": "Picks Teams",
+    "description": "Teams picked by player",
+    "style": "file:style.css",
+    "script": "",
+    "category": "",
+    "icon": "color-picker",
+    "apiVersion": 2,
+    "keywords": [ "hockey", "picks", "player" ],
+    "acf": {
+        "mode": "preview",
+	"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": true,
+        "anchor": true,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}

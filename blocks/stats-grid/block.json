@@ -1,0 +1,30 @@
+{
+    "name": "stats-grid",
+    "title": "Stats Grid",
+    "description": "Grid layout of player stats for the current year.",
+    "style": "file:style.css",
+    "script": "",
+    "category": "",
+    "icon": "grid-view",
+    "apiVersion": 2,
+    "keywords": [ "hockey", "stats", "grid", "rankings" ],
+    "acf": {
+        "mode": "edit",
+	"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": true,
+        "anchor": true,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {
+    }
+}
